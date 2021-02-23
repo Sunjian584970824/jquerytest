@@ -16,8 +16,29 @@ var radioClick = function (e) {// radio click事件
         $('.radio').removeClass('radioACtive')
 
     }
-    // 添加：节点.classList.add("类名")；
-
-    // 删除：节点.classList.remove("类名")；
 
 }
+var openTab=function(){
+    let elStyle=$('.checkBoxRightTop').css('display')
+    console.log(elStyle)
+    if(elStyle==='none'){
+        $('.checkBoxRightTop').css('display','block')
+    }else{
+        $('.checkBoxRightTop').css('display','none')
+
+    }
+    
+
+    
+}
+$('.selectBox').click((e)=>{
+    let el=e.target
+    console.dir(el)
+    if(el.className.indexOf('checkBoxAvtive')>-1){
+        el.classList.remove('checkBoxAvtive')
+    }else{
+        el.classList.add('checkBoxAvtive')
+
+    }
+    console.dir()
+})

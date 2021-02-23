@@ -16,14 +16,14 @@
     <!-- 为移动设备添加 viewport -->
     <meta name="viewport" content="initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=no">
     <!-- `width=device-width` 会导致 iPhone 5 添加到主屏后以 WebApp 全屏模式打开页面时出现黑边 http://bigc.at/ios-webapp-viewport-meta.orz -->
- <!-- QQ强制竖屏 -->
- <meta name="x5-orientation" content="portrait">
- <!-- UC强制全屏 -->
- <meta name="full-screen" content="yes">
- <!-- QQ强制全屏 -->
- <meta name="x5-fullscreen" content="true">
- <!-- UC应用模式 -->
- <meta name="browsermode" content="application">
+    <!-- QQ强制竖屏 -->
+    <meta name="x5-orientation" content="portrait">
+    <!-- UC强制全屏 -->
+    <meta name="full-screen" content="yes">
+    <!-- QQ强制全屏 -->
+    <meta name="x5-fullscreen" content="true">
+    <!-- UC应用模式 -->
+    <meta name="browsermode" content="application">
     <!-- uc强制竖屏 -->
     <meta name="screen-orientation" content="portrait">
     <!-- QQ强制竖屏 -->
@@ -51,13 +51,24 @@
 </head>
 
 <body>
+    
     <div class="header">
+       
         <div class="title">
-            <span>智能发布</span>
+            <span >智能发布</span>
             <img class="back" src="./image/svg/back.svg" alt="">
+            <div class='tabBox' onclick="openTab()"> 
+                <img class="tabsvg" src="./image/svg/tab.svg" alt="">
+                <span class='tabspan'>标签</span>
+            </div>
         </div>
     </div>
     <div class="sendBody">
+        <div class="checkBoxRightTop">
+            <p class='selectBox'>多项选项一</p>
+            <p class='selectBox'>选项二</p>
+            <p class='selectBox'>选项三</p>
+        </div>
         <img class='editSvg editSvg1' src="./image/svg/edit.svg" alt="">
         <div class="card flex card1 marginBottom1px">
             <img class='userImag' src="./image/1B39C249-C251-4db1-B8E4-BDA6B3736633.png" alt="">
