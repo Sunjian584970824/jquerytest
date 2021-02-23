@@ -1,0 +1,366 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+@media screen and (min-width: 375px) {
+  html {
+    font-size: 14.0625px;
+  }
+}
+@media screen and (min-width: 360px) {
+  html {
+    font-size: 13.5px;
+  }
+}
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 12px;
+  }
+}
+html {
+  font-size: 16px;
+  font-family: "Microsoft YaHei";
+}
+body {
+  background-color: #ebebeb;
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+}
+body .save {
+  padding: 0.9375rem 0.875rem;
+  box-sizing: border-box;
+}
+body .save .saveBtn {
+  justify-content: center;
+  background-color: #f58020;
+  height: 4.125rem;
+  font-weight: bold;
+  color: #fff;
+}
+body #radio {
+  width: 1rem;
+  height: 1rem;
+  border: 0.25rem solid #bfbfbf;
+  border-radius: 50%;
+  display: block;
+  margin-right: 0.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body #radio span.radioChild {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: #fff;
+}
+body #radio span.radioACtive {
+  background-color: #409eff;
+}
+body #radio.radioACtive {
+  border-color: #409eff;
+}
+body .flex {
+  display: flex;
+}
+body .editSvg {
+  width: 1.5625rem;
+  height: 1.5625rem;
+}
+body .addSvg {
+  height: 1.25rem;
+  width: 1.25rem;
+}
+body .titleColor {
+  color: #676767;
+}
+body .mainColor {
+  color: #333333 !important;
+}
+body .editSvg1 {
+  position: absolute;
+  right: 1.25rem;
+  top: 1.0625rem;
+  z-index: 999;
+}
+body .alignItems {
+  align-items: center;
+}
+body .sendBody {
+  box-sizing: border-box;
+  position: relative;
+  border-top: 0.0625rem solid #dfdfdf;
+  height: calc(100vh - 6.3rem);
+  overflow: auto;
+}
+body .sendBody .card1 {
+  height: 12.25rem;
+}
+body .sendBody .card {
+  padding: 0 1.25rem 0 1.25rem;
+  border-bottom: 0.0625rem solid #dfdfdf;
+  box-sizing: border-box;
+  background-color: #fff;
+  position: relative;
+}
+body .sendBody .card .name {
+  color: 333333;
+  font-weight: bold;
+  margin-bottom: 1.1875rem;
+}
+body .sendBody .card .flex1 {
+  margin-top: 3rem;
+}
+body .sendBody .card .flex {
+  color: #676767;
+}
+body .sendBody .card .flex div {
+  padding-right: 1.375rem;
+}
+body .sendBody .card .flex .age {
+  border: 1px solid #cdcdcd;
+  border-top: none;
+  border-bottom: none;
+  padding-left: 1.375rem;
+}
+body .sendBody .card .flex .workTime {
+  padding-left: 1.375rem;
+}
+body .sendBody .card .userBottom {
+  margin-top: 1.25rem;
+}
+body .sendBody .card .userBottom img {
+  margin-right: 0.5rem;
+}
+body .sendBody .card .userBottom .userPhoneBox .phoneSvg {
+  width: 1.9375rem;
+  height: 2.25rem;
+}
+body .sendBody .card .userBottom .userPhoneBox .emailSvg {
+  width: 1.7375rem;
+  height: 1.4875rem;
+}
+body .sendBody .userImag {
+  width: 8.1875rem;
+  height: 8.1875rem;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: 2.0625rem;
+}
+body .sendBody .w33 {
+  width: 2.0625rem;
+}
+body .sendBody .flex1 {
+  flex: 1;
+}
+body .sendBody .uploadTop {
+  margin-top: 2rem;
+}
+body .sendBody .upload {
+  width: 8.5625rem;
+  height: 2.75rem;
+  background-color: #f58020;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  margin-left: 2rem;
+  margin-right: 2.25rem;
+  border-radius: 0.25rem;
+}
+body .sendBody .education {
+  padding: 1.875rem 1.25rem;
+  font-size: 1.25rem;
+}
+body .sendBody .education .marginTop1 {
+  margin-top: 1.875rem;
+}
+body .sendBody .education .userDetail {
+  margin-top: 1.625rem;
+}
+body .sendBody .education .userDetail p.mainColor {
+  margin-bottom: 1rem;
+}
+body .sendBody .education .userDetail p.mainColor:nth-last-child(1) {
+  margin-bottom: 0;
+}
+body .sendBody .education .userDetail .marginLeft16 {
+  margin-right: 1rem;
+}
+body .sendBody .education .flex .flex {
+  padding: 0;
+}
+body .sendBody .education .add span {
+  color: #999;
+}
+body .sendBody .education .add img {
+  margin-right: 0.5rem;
+}
+body .sendBody .education .flex1 {
+  margin: 0;
+}
+body .sendBody .education .educationColor {
+  font-size: 1.25rem;
+  color: #676767;
+  margin-right: 0.8125rem;
+}
+body .sendBody .education .required {
+  font-size: 1.25rem;
+  padding: 0 0.8125rem;
+  border: 1px solid #f64a56;
+  color: #f64a56;
+  border-radius: 0.375rem;
+  align-items: center;
+  justify-content: center;
+  height: 1.5625rem;
+  width: 4.4375rem;
+}
+body .header {
+  font-size: 2.625rem;
+  background-color: #f58020;
+  width: 100%;
+  height: 6.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+  position: sticky;
+  top: 0;
+}
+body .header .title {
+  color: #fff;
+  flex: 1;
+  justify-content: center;
+  display: flex;
+  position: relative;
+}
+body .header .title .back {
+  width: 2.125rem;
+  height: 2.9375rem;
+  position: absolute;
+  left: 2.3125rem;
+}
+body .marginBottom1px {
+  margin-bottom: 0.0625rem;
+}

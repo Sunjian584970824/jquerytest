@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- 声明文档使用的字符编码 -->
+    <meta charset='utf-8'>
+    <!-- 优先使用 IE 最新版本和 Chrome -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <!-- 页面描述 -->
+    <meta name="description" content="不超过150个字符" />
+    <!-- 页面关键词 -->
+    <meta name="keywords" content="" />
+    <meta name="author" content="name, email@gmail.com" />
+    <!-- 搜索引擎抓取 -->
+    <meta name="robots" content="index,follow" />
+    <!-- 为移动设备添加 viewport -->
+    <meta name="viewport" content="initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=no">
+    <!-- `width=device-width` 会导致 iPhone 5 添加到主屏后以 WebApp 全屏模式打开页面时出现黑边 http://bigc.at/ios-webapp-viewport-meta.orz -->
+ <!-- QQ强制竖屏 -->
+ <meta name="x5-orientation" content="portrait">
+ <!-- UC强制全屏 -->
+ <meta name="full-screen" content="yes">
+ <!-- QQ强制全屏 -->
+ <meta name="x5-fullscreen" content="true">
+ <!-- UC应用模式 -->
+ <meta name="browsermode" content="application">
+    <!-- uc强制竖屏 -->
+    <meta name="screen-orientation" content="portrait">
+    <!-- QQ强制竖屏 -->
+    <meta name="x5-orientation" content="portrait">
+    <!-- windows phone 点击无高光 -->
+    <meta name="msapplication-tap-highlight" content="no">
+    <!-- iPad 竖屏 768 x 1004（标准分辨率） -->
+    <link rel="apple-touch-startup-image" sizes="1536x2008" href="/splash-screen-1536x2008.png" />
+    <!-- iPad 竖屏 1536x2008（Retina） -->
+    <link rel="apple-touch-startup-image" sizes="1024x748" href="/Default-Portrait-1024x748.png" />
+    <!-- iPad 横屏 1024x748（标准分辨率） -->
+    <link rel="apple-touch-startup-image" sizes="2048x1496" href="/splash-screen-2048x1496.png" />
+    <!-- iPad 横屏 2048x1496（Retina） -->
+    <link rel="apple-touch-startup-image" href="/splash-screen-320x480.png" />
+    <!-- iPhone/iPod Touch 竖屏 320x480 (标准分辨率) -->
+    <link rel="apple-touch-startup-image" sizes="640x960" href="/splash-screen-640x960.png" />
+    <!-- iPhone/iPod Touch 竖屏 640x960 (Retina) -->
+    <link rel="apple-touch-startup-image" sizes="640x1136" href="/splash-screen-640x1136.png" />
+    <!-- x5(也就是在微信上）满屏，其他浏览器也满屏  -->
+    <meta name="x5-fullscreen" content="true" />
+    <meta name="full-screen" content="yes" />
+    <title>Jquery</title>
+    <script src="./public.js"></script>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="title">
+            <span>智能发布</span>
+            <img class="back" src="./image/svg/back.svg" alt="">
+        </div>
+    </div>
+    <div class="sendBody">
+        <img class='editSvg editSvg1' src="./image/svg/edit.svg" alt="">
+        <div class="card flex card1 marginBottom1px">
+            <img class='userImag' src="./image/1B39C249-C251-4db1-B8E4-BDA6B3736633.png" alt="">
+            <div class='w33'></div>
+            <div class="flex1">
+                <p class='name'>张立军</p>
+                <div class="flex">
+                    <div class='sex'>女</div>
+                    <div class='age'>25岁</div>
+                    <div class='workTime'>工作5年</div>
+                </div>
+                <div class="flex userBottom">
+                    <div class="userPhoneBox flex">
+                        <div class="flex alignItems">
+                            <img class='phoneSvg' src="./image/svg/phone.svg" alt="">
+                            <div class="phone">135****4692</div>
+                        </div>
+                        <div class="flex alignItems">
+                            <img class='emailSvg' src="./image/svg/email.svg" alt="">
+                            <div class="phone">135****4692</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card education">
+            <div>
+                <div class="flex ">
+                    <div class="flex flex1 alignItems ">
+                        <span class='educationColor'> 教育背景</span>
+                        <div class='required flex'>必填 </div>
+                    </div>
+                    <div class="flex add">
+                        <img class='addSvg' src="./image/svg/add.svg" alt="">
+                        <span>添加 </span>
+                    </div>
+                </div>
+
+            </div>
+            <div class='userDetail'>
+                <div class="flex mainColor ">
+                    <span class='marginLeft16'>2006.6-2006-9</span>
+                    <span class='marginLeft16'>师范大学</span>
+                    <span class='marginLeft16'>应用心理学</span>
+                    <span>硕士</span>
+                    <div class="flex1 flex">
+                        <div class="flex1"></div>
+                        <img class='editSvg' src="./image/svg/edit.svg" alt="">
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="card education">
+            <div>
+                <div class="flex ">
+                    <div class="flex flex1 alignItems titleColor">
+                        <span class='educationColor'> 实习/工作经验</span>
+                    </div>
+                    <div class="flex add">
+                        <img class='addSvg' src="./image/svg/add.svg" alt="">
+                        <span>添加 </span>
+                    </div>
+                </div>
+
+            </div>
+            <div class='userDetail'>
+                <div class="flex  mainColor">
+                    <span class='marginLeft16'>2006.6-2006-9</span>
+                    <span class='marginLeft16'>华为</span>
+                    <span class='marginLeft16'>销售总监</span>
+                    <div class="flex1 flex">
+                        <div class="flex1"></div>
+                        <img class='editSvg' src="./image/svg/edit.svg" alt="">
+
+                    </div>
+                </div>
+            </div>
+            <div class='marginTop1'>
+                <div class="flex ">
+                    <div class="flex flex1 alignItems titleColor">
+                        <span class='educationColor'> 工作职责</span>
+                    </div>
+                    <!-- <div class="flex add">
+                        <img class='addSvg' src="./image/svg/add.svg" alt="">
+                        <span>添加 </span>
+                    </div> -->
+                </div>
+
+            </div>
+            <div class='userDetail'>
+                <p class="mainColor">1、根据工作任务的需要确立工作岗位名称及其数量; </p>
+                <p class="mainColor">2、根据岗位工种确定岗位职务范围; </p>
+                <p class="mainColor">3、根据工种性质确定岗位使用的设备、工具、工作质量和效率; </p>
+                <p class="mainColor">4、明确岗位环境和确定岗位任职资格; </p>
+            </div>
+
+
+        </div>
+        <div class="card education">
+            <div>
+                <div class="flex ">
+                    <div class="flex flex1 alignItems titleColor">
+                        <span class='educationColor'> 项目经验</span>
+                    </div>
+                    <div class="flex add">
+                        <img class='addSvg' src="./image/svg/add.svg" alt="">
+                        <span>添加 </span>
+                    </div>
+                </div>
+                <div class='userDetail'>
+                    <div class="flex mainColor ">
+                        <span class='marginLeft16'>2006.6-2006-9</span>
+                        <span class='marginLeft16'>生涯实验室</span>
+                        <span class='marginLeft16'>项目总指挥</span>
+                        <div class="flex1 flex">
+                            <div class="flex1"></div>
+                            <img class='editSvg' src="./image/svg/edit.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class='marginTop1'>
+                <div class="flex ">
+                    <div class="flex flex1 alignItems titleColor">
+                        <span class='educationColor'> 工作职责</span>
+                    </div>
+                </div>
+
+            </div>
+            <div class='userDetail'>
+                <p class="mainColor">1、根据工作任务的需要确立工作岗位名称及其数量; </p>
+                <p class="mainColor">2、根据岗位工种确定岗位职务范围; </p>
+                <p class="mainColor">3、根据工种性质确定岗位使用的设备、工具、工作质量和效率; </p>
+                <p class="mainColor" style="margin-bottom: 0;">4、明确岗位环境和确定岗位任职资格; </p>
+            </div>
+        </div>
+        <div class="card education">
+            <div>
+                <div class="flex ">
+                    <div class="flex flex1 alignItems titleColor">
+                        <span class='educationColor'> 校园经历</span>
+                    </div>
+                    <div class="flex add">
+                        <img class='addSvg' src="./image/svg/add.svg" alt="">
+                        <span>添加 </span>
+                    </div>
+                </div>
+                <div class='userDetail'>
+                    <div class="flex mainColor ">
+                        <span class='marginLeft16' style="color:#acaaab">请添加校园经历</span>
+                        <div class="flex1 flex">
+                            <div class="flex1"></div>
+                            <img class='editSvg' src="./image/svg/edit.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card education">
+            <div>
+                <div class="flex ">
+                    <div class="flex flex1 alignItems titleColor">
+                        <span class='educationColor'> 专业技能</span>
+                    </div>
+                    <div class="flex add">
+                        <img class='addSvg' src="./image/svg/add.svg" alt="">
+                        <span>添加 </span>
+                    </div>
+                </div>
+                <div class='userDetail'>
+                    <div class="flex mainColor ">
+                        <span class='marginLeft16' style="color:#acaaab">请添加专业技能</span>
+                        <div class="flex1 flex">
+                            <div class="flex1"></div>
+                            <img class='editSvg' src="./image/svg/edit.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card education">
+            <div>
+                <div class="flex ">
+                    <div class="flex flex1 alignItems titleColor">
+                        <span class='educationColor'> 荣誉证书</span>
+                    </div>
+                    <div class="flex add">
+                        <img class='addSvg' src="./image/svg/add.svg" alt="">
+                        <span>添加 </span>
+                    </div>
+                </div>
+                <div class='userDetail'>
+                    <div class="flex mainColor ">
+                        <span class='marginLeft16'>2006.6-2006-9</span>
+                        <span class='marginLeft16'>生涯规划师</span>
+                        <div class="flex1 flex">
+                            <div class="flex1"></div>
+                            <img class='editSvg' src="./image/svg/edit.svg" alt="">
+
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class='userDetail'>
+                    <div class="flex mainColor ">
+                        <span class='marginLeft16' style="color:#acaaab">请添加专业技能</span>
+                        <div class="flex1 flex">
+                            <div class="flex1"></div>
+                            <img class='editSvg' src="./image/svg/edit.svg" alt="">
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+        <div class="card education">
+            <div>
+                <div class="flex ">
+                    <div class="flex flex1 alignItems titleColor">
+                        <span class='educationColor'> 自我称述</span>
+                    </div>
+                    <div class="flex add">
+                        <img class='addSvg' src="./image/svg/add.svg" alt="">
+                        <span>添加 </span>
+                    </div>
+                </div>
+
+                <div class='userDetail'>
+                    <div class="flex mainColor ">
+                        <span class='marginLeft16' style="color:#acaaab">请输入自我称述</span>
+                        <div class="flex1 flex">
+                            <div class="flex1"></div>
+                            <img class='editSvg' src="./image/svg/edit.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card education ">
+            <div class="flex alignItems">
+                <span onclick="radioClick(event)" class='radio' id="radio">
+                    <span class="radioChild"></span>
+                </span>
+                <span>岗位申请时自动推送我的《职拓报告》</span>
+                <!-- <input type="radio" name="checkRadio" id="radio" onclick="radioClick(event)" value="red">岗位申请时自动推送我的《职拓报告》<br> -->
+            </div>
+            <div class="flex alignItems uploadTop">
+                <div class="upload  alignItems">上传简历</div>
+                <div class="userUpload">张立军个人简历.doc</div>
+            </div>
+        </div>
+        <div class='save '>
+            <div class="saveBtn flex alignItems">
+                保存
+            </div>
+        </div>
+        <script src='./jquery.js'></script>
+        <script src="./index.js"></script>
+    </div>
+
+</body>
+
+</html>
