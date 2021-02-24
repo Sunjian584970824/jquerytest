@@ -153,7 +153,6 @@ body .checkBoxRightTop {
   top: 5.2rem;
   right: 1.25rem;
   z-index: 999999;
-  background-color: #fff;
   background-color: #f2f2f2;
   border-radius: 0.375rem;
   font-size: 1.5rem;
@@ -162,6 +161,7 @@ body .checkBoxRightTop {
 body .checkBoxRightTop p {
   line-height: 3rem;
   padding: 0 1rem;
+  color: #676767;
 }
 body .checkBoxRightTop .checkBoxAvtive {
   background-color: #fde6d2;
@@ -229,6 +229,29 @@ body .titleColor {
 }
 body .mainColor {
   color: #333333 !important;
+}
+body .enterInput {
+  border: none;
+  outline: none;
+  width: 100%;
+}
+body input::-webkit-input-placeholder {
+  color: #acaaab;
+}
+body input::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #acaaab;
+}
+body input:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #acaaab;
+}
+body input:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #acaaab;
+}
+body input::-webkit-input-placeholder {
+  color: #acaaab;
 }
 body .editSvg1 {
   position: absolute;
