@@ -163,10 +163,9 @@ body .checkBoxRightTop {
 body .checkBoxRightTop p {
   line-height: 3rem;
   padding: 0 1rem;
-  border-bottom: 0.0625rem solid #fff;
 }
 body .checkBoxRightTop .checkBoxAvtive {
-  background-color: red;
+  background-color: #fde6d2;
 }
 body .tabsvg {
   width: 1.3rem;
